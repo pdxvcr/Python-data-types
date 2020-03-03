@@ -1,0 +1,65 @@
+#Variables and data types
+
+#numbers
+a = 31 #integer (int)
+b = 2 #integer (int)
+c = 15 #octal long integer which is equal 13 decimal
+d = 15.37 #float
+e = 5.7+13j #complex
+
+#arithmetic operations with numbers
+print("ARITHMETIC OPERATIONS WITH NUMBERS")
+print(a+d) #summ operation
+print(b*d) #operation of multiplication
+print(a/b) #classic division operation
+print(a//b) #floor division operation, returns fractional part
+print(a%b) #operator returns the remainder of the division
+print(a**3) #operation of power
+
+#strings
+
+k= "the string length is " #string enclosed in double quotation marks
+s='First Name Surname' #string enclosed in quotation marks
+word="Carrot"
+
+#operations with strings
+print("OPERATIONS WITH STRINGS")
+print(s)
+print("""
+Classic DISTRIBUTION
+What       is a power diode
+Forward recovery time is the time required...
+""")
+print(3*"star"+"um") #operation n* repeat string n times, and operation + merges two strings
+print(word[0]) #returns first character of a string (as numeration of the string characters starts from 0)
+print(word[4]) #returns fifth character of a string
+print(word[0:5]) #returns characters from 0 to 5
+print(word[-1:-5]) #returns characters of the string in reverse order
+print(word[:3]) #returns first three characters of the string
+print(word[3:]) #returns characters of the string starting from fourth character
+print(word[:3]+word[3:]) #returns merged parts of the string of corresponding characters
+print(k, len(word)) #retuns the length of the string WORD
+
+#lists
+list1 = [27, "tea", "ba", 2]
+list2 = ["raspberrypi"]
+
+#oprations with lists
+print("OPRATIONS WITH LISTS")
+print (list1[0]) #returns first element of the list
+print (list1[:2]) #returns  first and second element of the list
+print (list1[2:3]) #returns third element of the list
+print (list2*3) #returns list2 3 times
+print (list1+list2) #returns both lists
+
+#tuples
+tuple1 = (27, "bread", 15, "wire")
+tuple2 = ("numeration", 2)
+
+#operations with tuples
+print("OPERATIONS WITH TUPLES")
+print (tuple2[0]) #returns first element of the tuple
+print (tuple1[1:2]) #returns second element of the tuple
+print (tuple1[1:]) #returns elements of the tuples starting from the second
+print (tuple1+tuple2) #returns merged tuples
+print (tuple2*4) #returns tuple 4 times
