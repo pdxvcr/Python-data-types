@@ -51,6 +51,7 @@ print (list1[:2]) #returns  first and second element of the list
 print (list1[2:3]) #returns third element of the list
 print (list2*3) #returns list2 3 times
 print (list1+list2) #returns both lists
+print (len(list1)) #returns the size of the list1
 
 #tuples
 tuple1 = (27, "bread", 15, "wire")
@@ -63,3 +64,4 @@ print (tuple1[1:2]) #returns second element of the tuple
 print (tuple1[1:]) #returns elements of the tuples starting from the second
 print (tuple1+tuple2) #returns merged tuples
 print (tuple2*4) #returns tuple 4 times
+print (len(tuple2)) #returns the length of tuple
