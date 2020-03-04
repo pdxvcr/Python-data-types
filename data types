@@ -30,7 +30,7 @@ Classic DISTRIBUTION
 What       is a power diode
 Forward recovery time is the time required...
 """)
-print(3*"star"+"um") #operation n* repeat string n times, and operation + merges two strings
+print(3*"star"+"um") #operation n* repeats string n times, and operation + merges two strings
 print(word[0]) #returns first character of a string (as numeration of the string characters starts from 0)
 print(word[4]) #returns fifth character of a string
 print(word[0:5]) #returns characters from 0 to 5
